@@ -32,11 +32,21 @@ ol {
 .page-header .row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
 
 .category {
     display: flex;
+    gap: 10px;
 }
+
+.account {
+    display: flex;
+    gap: 10px;
+}
+
+
 
 .row {
     display: flex;
@@ -103,13 +113,29 @@ ol {
 /* STYLE */
 
 .header-logo{
-    width: 400px;
-    height: 50px;
+    width: 200px;
+    height: 30px;
 }
 
 .page-header{
     background-color: #FF6900;
     color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.page-header .container{
+    height: 50px;
+}
+
+.product-page .container{
+    padding-top: 50px;
+}
+
+.account-icons {
+    height: 20px;
+    width: 20px;
 }
 
 .discount, .label{
