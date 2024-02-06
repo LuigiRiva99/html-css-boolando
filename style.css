@@ -79,6 +79,27 @@ ol {
     padding: 5px 15px;
 }
 
+.footer-bar .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.socials, .company{
+    display: flex;
+    flex-direction: column;
+}
+
+.company-info, .socials-icons{
+    display: flex;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+.socials {
+    align-items: center;
+}
+
 /* STYLE */
 
 .header-logo{
@@ -127,6 +148,20 @@ ol {
 
 .favourites:hover{
     color: red;
+}
+
+.footer-bar{
+    background-color: #1A1A1A;
+    color: white;
+    margin-top: 20px;
+}
+
+.company-title {
+    font-size: 20px;
+}
+
+.socials-title {
+    padding-right: 15px;
 }
 
 
